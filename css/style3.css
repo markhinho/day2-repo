@@ -27,3 +27,40 @@ footer{
   background-color: black;
   height: 50px;
 }
+
+
+/*media queries*/
+@media screen and (max-width: 400px) {
+  footer {
+    background-color: pink;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blue {
+    background-color: crimson;
+  }
+  .green {
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 450px) {
+  .red {
+    background-color: blue;
+  }
+  .turqoise {
+    background-color: cyan;
+  }
+@media screen and (max-width:992px) {
+  .blue {
+    background-color: green;
+  }
+  .green {
+    background-color: red;
+  }
+  .red {
+    background-color: yellow;
+  }
+  .turqoise {
+    background-color: black;
+  }
+}
