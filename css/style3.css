@@ -50,4 +50,17 @@ footer{
   .turqoise {
     background-color: cyan;
   }
+@media screen and (max-width:992px) {
+  .blue {
+    background-color: green;
+  }
+  .green {
+    background-color: red;
+  }
+  .red {
+    background-color: yellow;
+  }
+  .turqoise {
+    background-color: black;
+  }
 }
